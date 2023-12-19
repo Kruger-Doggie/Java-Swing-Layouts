@@ -15,6 +15,9 @@ JPanel panel = new JPanel();
 panel.setLayout(layout);
 ```
 
+#### Size modifier example
+![Size modifier example for HorizontalLayout](/Screenshots/Size%20example%20VerticalLayout.png)
+
 ## HorizontalLayout
 HorizontalLayout is a custom Java layout manager inspired by `FlowLayout` but designed for horizontal arrangement. It allows you to easily organize Swing components in a single row with customizable alignment and sizing options.
 
@@ -30,4 +33,6 @@ HorizontalLayout layout = new HorizontalLayout(LayoutConstants.ALIGNMENT_LEFT, L
 JPanel panel = new JPanel();
 panel.setLayout(layout);
 ```
-![Size modifier example for HorizontalLayout](/Screenshot/Size%20example%20HorizontalLayout.png)
+
+#### Size modifier example
+![Size modifier example for HorizontalLayout](/Screenshots/Size%20example%20HorizontalLayout.png)
