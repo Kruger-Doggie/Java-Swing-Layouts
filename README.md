@@ -30,3 +30,4 @@ HorizontalLayout layout = new HorizontalLayout(LayoutConstants.ALIGNMENT_LEFT, L
 JPanel panel = new JPanel();
 panel.setLayout(layout);
 ```
+![Size modifier example for HorizontalLayout](/Screenshot/Size%20example%20HorizontalLayout.png)
