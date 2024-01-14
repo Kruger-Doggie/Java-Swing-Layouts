@@ -333,7 +333,7 @@ public class HorizontalLayout implements LayoutManager {
         Insets insets = parent.getInsets();
         Component[] comps = parent.getComponents();
         int placedWidth = getComponentFullPlaceWidth(comps);
-        int x = (parent.getWidth() - insets.left - insets.right) / 2 - placedWidth / 2 + insets.left;//(X Mittig im Plazierungsbereich) - (Halbe Breite der zu plazierenden Komponenten)
+        int x = (parent.getWidth() - insets.left - insets.right) / 2 - placedWidth / 2 + insets.left;
         int y = insets.top;
         if (SIZEMODE == LayoutConstants.SIZE_COMPONENT_PREFERRED) {
             for (Component c : comps) {
